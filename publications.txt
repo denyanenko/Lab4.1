@@ -1,0 +1,7 @@
+Book {authors = ["Author1"], title = "Title1", city = "City1", publisher = "Publisher1", year = 2022, pageCount = 300}
+Article {authors = ["Author2"], title = "Title2", journal = "Journal1", year = 2023, journalNumber = 1, pages = (10,20)}
+Book {authors = ["John Doe"], title = "Introduction to Haskell", city = "New York", publisher = "ABC Publishing", year = 2024, pageCount = 400}
+Article {authors = ["Author1","Author4"], title = "Title4", journal = "Journal2", year = 2024, journalNumber = 2, pages = (15,25)}
+Book {authors = ["Author5"], title = "Title5", city = "City3", publisher = "Publisher2", year = 2023, pageCount = 250}
+Thesis {authors = ["Author6"], title = "Title6", conference = "Conference2", city = "City4", year = 2022, pages = (50,60)}
+Book {authors = ["John Doe"], title = "Introduction to Haskell", city = "New York", publisher = "ABC Publishing", year = 2024, pageCount = 400}
