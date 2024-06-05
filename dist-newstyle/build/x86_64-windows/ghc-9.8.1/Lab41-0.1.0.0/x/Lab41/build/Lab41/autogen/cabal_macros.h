@@ -30,6 +30,16 @@
   (major1) == 4 && (major2) <  19 || \
   (major1) == 4 && (major2) == 19 && (minor) <= 0)
 #endif /* MIN_VERSION_base */
+/* package generics-sop-0.5.1.4 */
+#ifndef VERSION_generics_sop
+#define VERSION_generics_sop "0.5.1.4"
+#endif /* VERSION_generics_sop */
+#ifndef MIN_VERSION_generics_sop
+#define MIN_VERSION_generics_sop(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 1)
+#endif /* MIN_VERSION_generics_sop */
 /* package optparse-applicative-0.18.1.0 */
 #ifndef VERSION_optparse_applicative
 #define VERSION_optparse_applicative "0.18.1.0"
@@ -40,6 +50,16 @@
   (major1) == 0 && (major2) <  18 || \
   (major1) == 0 && (major2) == 18 && (minor) <= 1)
 #endif /* MIN_VERSION_optparse_applicative */
+/* package split-0.2.5 */
+#ifndef VERSION_split
+#define VERSION_split "0.2.5"
+#endif /* VERSION_split */
+#ifndef MIN_VERSION_split
+#define MIN_VERSION_split(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 5)
+#endif /* MIN_VERSION_split */
 
 /* tool gcc-14.0.6 */
 #ifndef TOOL_VERSION_gcc

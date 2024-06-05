@@ -1,7 +1,28 @@
 Book {authors = ["Author1"], title = "Title1", city = "City1", publisher = "Publisher1", year = 2022, pageCount = 300}
 Article {authors = ["Author2"], title = "Title2", journal = "Journal1", year = 2023, journalNumber = 1, pages = (10,20)}
-Book {authors = ["John Doe"], title = "Introduction to Haskell", city = "New York", publisher = "ABC Publishing", year = 2024, pageCount = 400}
+Thesis {authors = ["Author3"], title = "Title3", conference = "Conference1", city = "City2", year = 2021, pages = (30,40)}
 Article {authors = ["Author1","Author4"], title = "Title4", journal = "Journal2", year = 2024, journalNumber = 2, pages = (15,25)}
 Book {authors = ["Author5"], title = "Title5", city = "City3", publisher = "Publisher2", year = 2023, pageCount = 250}
 Thesis {authors = ["Author6"], title = "Title6", conference = "Conference2", city = "City4", year = 2022, pages = (50,60)}
 Book {authors = ["John Doe"], title = "Introduction to Haskell", city = "New York", publisher = "ABC Publishing", year = 2024, pageCount = 400}
+Book {authors = ["Author 1"], title = "Title test", city = "City333", publisher = "pub555", year = 2002, pageCount = 300}
+Book {authors = ["Author 1"], title = "Title test", city = "City333", publisher = "pub555", year = 2002, pageCount = 300}
+Book {authors = ["Author 1"], title = "Title test", city = "City333", publisher = "pub555", year = 2002, pageCount = 301}
+Book {authors = ["Author 1"], title = "Title test", city = "City333", publisher = "pub555", year = 2002, pageCount = 301}
+Book {authors = ["Author 1"], title = "Title test", city = "City333", publisher = "pub555", year = 2002, pageCount = 301}
+Book {authors = ["Author 1"], title = "Title test", city = "City333", publisher = "pub555", year = 2002, pageCount = 301}
+Book {authors = ["Author 1"], title = "Title test", city = "City333", publisher = "pub555", year = 2002, pageCount = 301}
+Book {authors = ["Author 1"], title = "Title test", city = "City333", publisher = "pub555", year = 2002, pageCount = 301}
+Thesis {authors = ["sge.","errgerg"], title = "dver", conference = "svd", city = "gggggg", year = 4, pages = (45,400)}
+Book {authors = ["Author 1"], title = "Title test", city = "City333", publisher = "pub555", year = 2002, pageCount = 301}
+Book {authors = ["jdydfy"], title = "dm,u", city = "gj,gj", publisher = "h,", year = 6, pageCount = 8}
+Book {authors = ["addB"], title = "Author 1", city = "Title test", publisher = "City333", year = 2002, pageCount = 301}
+Book {authors = ["kdkc"], title = "skdvkm", city = "smdkdsmkmskdkmsd", publisher = "22", year = 22, pageCount = 33}
+Book {authors = ["Author 1"], title = "Title test", city = "City333", publisher = "pub555", year = 2002, pageCount = 301}
+Book {authors = ["sfvsf"], title = "sdvdsfv", city = "svd", publisher = "sdvb", year = 445, pageCount = 33}
+Book {authors = ["Author 1"], title = "Title test", city = "City333", publisher = "pub5777", year = 2002, pageCount = 301}
+Book {authors = ["Author 1"], title = "Title test", city = "City333", publisher = "pub5777", year = 2002, pageCount = 301}
+Book {authors = ["dfbeb"], title = "erger", city = "erger", publisher = "ergerg", year = 2, pageCount = 5}
+Book {authors = ["dfbeb"], title = "erger", city = "erger", publisher = "ergerg", year = 2, pageCount = 5}
+Book {authors = ["dfbeb"], title = "erger", city = "erger", publisher = "ergerg", year = 2, pageCount = 5}
+Book {authors = ["dfbeb"], title = "erger", city = "erger", publisher = "ergerg", year = 2, pageCount = 5}

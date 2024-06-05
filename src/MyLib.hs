@@ -114,6 +114,18 @@ formatAuthors  = intercalate ", "
 printPublications :: Publications -> IO ()
 printPublications (Publications pubs) = mapM_ printPublication pubs
 
+-- Функція для форматування публікації у рядок
+formatPublication :: Publication -> String
+formatPublication (Book authors title city publisher year pageCount) =
+    "Book: " ++ title ++ " (" ++ show year ++ "), by " ++ formatAuthors authors ++ ", published by " ++ publisher ++ ", " ++ city ++ ", " ++ show pageCount ++ " pages"
+formatPublication (Article authors title journal year journalNumber (startPage, endPage)) =
+    "Article: " ++ title ++ " (" ++ show year ++ "), by " ++ formatAuthors authors ++ ", published in " ++ journal ++ ", #" ++ show journalNumber ++ ", pages " ++ show startPage ++ "-" ++ show endPage
+formatPublication (Thesis authors title conference city year (startPage, endPage)) =
+    "Thesis: " ++ title ++ " (" ++ show year ++ "), by " ++ formatAuthors authors ++ ", presented at " ++ conference ++ ", " ++ city ++ ", pages " ++ show startPage ++ "-" ++ show endPage
+
+formatPublications :: Publications -> String
+formatPublications (Publications pubs) = unlines $ map formatPublication pubs
+
 instance Read Publication where
     readsPrec _ = readP_to_S publicationParser
 

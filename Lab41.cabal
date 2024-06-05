@@ -58,7 +58,7 @@ library
   import:           warnings
 
   -- Modules exported by the library.
-  exposed-modules:  MyLib, CLI
+  exposed-modules:  MyLib
 
   -- Modules included in this library but not exported.
   -- other-modules:
@@ -68,7 +68,9 @@ library
 
   -- Other library packages from which modules are imported.
   build-depends:    base ^>=4.19.0.0,
-                    optparse-applicative >= 0.18.1.0
+                    optparse-applicative >= 0.18.1.0,
+                    generics-sop,
+                    split >= 0.2 && < 0.3
 
   -- Directories containing source files.
   hs-source-dirs:   src
@@ -93,7 +95,9 @@ executable Lab41
   build-depends:
     base ^>=4.19.0.0,
     Lab41,
-    optparse-applicative >= 0.18.1.0
+    optparse-applicative >= 0.18.1.0,
+    generics-sop,
+    split >= 0.2 && < 0.3
 
   -- Directories containing source files.
   hs-source-dirs:   app
